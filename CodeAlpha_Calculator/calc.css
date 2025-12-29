@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popins", sans-serif;
+}
+
+body{
+    font-size: 40px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 18, 46);
+}
+.calculator{
+    border: 5px solid #a896a4;
+    padding: 10px;
+    border-radius: 30px;
+    background: transparent;
+    box-shadow: -9px -9px 16px rgba(161, 192, 255, 0.473);
+    
+}
+
+input{
+    width: 352px;
+    border: 5px solid #4e4d80;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+    background: #4f5a6b;
+    font-size: 90px;
+    text-align: right;
+    cursor: pointer;
+    color: #afb2ff;
+    box-shadow: -8px -8px 15px rgba(211, 188, 188, 0.2);
+}
+
+input::placeholder{
+    color: #b6d2f0;
+}
+
+button{
+    border: none;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #9af8ff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.but1{
+    font-size: 30px;
+    background-color: #55007a;
+    color: #d292e4;
+    box-shadow: -8px -8px 16px #78448f;
+}
+
+.but2{
+    font-size: 30px;
+    background-color: #477e81;
+    color: #96e2fb;
+    box-shadow: -8px -8px 16px #5198ae;
+}
+
+.but3{
+    font-size: 30px;
+    background-color: rgb(7, 111, 0);
+    color: #4dff68;
+    box-shadow: -8px -8px 16px rgba(136, 244, 134, 0.487);
+}
+
+.but4{
+    font-size: 30px;
+    background-color: rgb(126, 107, 4);
+    color: #e5e37b;
+    box-shadow: -8px -8px 16px rgba(238, 243, 102, 0.517);
+}
+
+h1{
+    padding-right: 100px;
+    padding-bottom: 400px;
+    font-family: "Poppins", sans-serif;
+    color: #9c80ff;
+    font-size: 150px;
+    text-shadow: -8px -8px 16px #897aff85;
+}
