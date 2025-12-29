@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>My Image Gallery</h1>
+
+  <div class="filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="nature">Nature</button>
+    <button class="filter-btn" data-filter="city">City</button>
+  </div>
+
+  <div class="gallery">
+    <div class="gallery-item nature">
+      <img src="img1.jpg" alt="Image 1">
+    </div>
+    <div class="gallery-item city">
+      <img src="img2.jpg" alt="Image 2">
+    </div>
+    <div class="gallery-item nature">
+      <img src="img3.jpg" alt="Image 3">
+    </div>
+    <div class="gallery-item city">
+      <img src="img4.jpg" alt="Image 4">
+    </div>
+  </div>
+
+  <div id="lightbox" class="lightbox">
+    <span id="closeBtn" class="close">&times;</span>
+    <img id="lightboxImg" class="lightbox-img" src="" alt="">
+    <button id="prevBtn" class="nav prev">&#10094;</button>
+    <button id="nextBtn" class="nav next">&#10095;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
